@@ -95,6 +95,4 @@ Puis ouvrir :
 http://localhost:5000
 
 
-## Démonstration
 
-Vidéo de démonstration :
