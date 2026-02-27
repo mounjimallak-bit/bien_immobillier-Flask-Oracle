@@ -196,18 +196,7 @@ http://localhost:5000
 
 ---
 
-## What I Learned
 
-This project helped me learn:
-
-- Full-stack development with Flask
-- Oracle database design
-- PL/SQL programming
-- Stored procedures and triggers
-- Role-based web applications
-- Database-driven applications
-
----
 
 ## Author
 
