@@ -1,17 +1,16 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash, abort
 import oracledb
 from datetime import date, datetime
-
+import os
 
 
 
 app = Flask(__name__)
 app.secret_key = ""
 
-DB_USER = ""
-DB_PASSWORD = ""
-DB_DSN = "localhost:1521/XEPDB1"
-
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+DB_DSN = os.getenv("DB_DSN")
 
 def get_db():
     try:
@@ -765,3 +764,4 @@ if __name__ == '__main__':
 
 
     app.run(debug=True)
+
